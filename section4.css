@@ -1,0 +1,157 @@
+.section4 {
+    display: flex;
+    width: 100vw;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bloco01sec4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 60px;
+    margin-bottom: 64px;
+}
+.cards {
+    width: 90%;
+    height: 110%;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+.card1 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(245, 244, 255, 1);
+    box-sizing: border-box;
+    padding: 24px;
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
+.freetrial {
+    display: flex;
+    margin-bottom: 16px;
+    font-size: 1.0rem;
+    font-weight: 600;
+}
+.freetrialspan {
+    display: flex;
+    margin-bottom: 32px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.h3 {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+}
+.cardul {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 16px;
+    font-size: 0.9rem;
+}
+#check2 {
+    width: min-content;
+    height: min-content;
+}
+.buttomcard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    height: 100%;
+   
+}
+#starttrial {
+    width: 97%;
+    height: 50px;
+    border-style: none;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(67, 40, 235, 1);
+    font-weight: 600;
+    font-size: 0.9rem;
+    cursor: pointer;
+    box-shadow: 90%;
+    align-items: end;
+}
+
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(67, 40, 235, 1);
+    box-sizing: border-box;
+    padding: 24px;
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
+.h3card1 {
+    margin-bottom: 32px;
+    font-size: 1.2rem;
+}
+
+
+.card3 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(245, 244, 255, 1);
+    box-sizing: border-box;
+    padding: 24px;
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
+#textcard3 {
+    font-size: 0.9rem;
+}
+#textcard3-1 {
+    font-size: 0.9rem;
+    text-align: start;
+}
+
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    gap: 49px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    background-color: blue;
+    background: linear-gradient(60deg, rgb(65, 65, 245), rgb(255, 27, 19));
+    width: 80%;
+    height: auto;
+    border-radius: 16px;
+    padding-top: 88px;
+    padding-bottom: 88px;
+}
+.buttonsfinal {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.primeiroblocosec4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#tfffinal {
+    padding: 16px 32px 16px 32px;
+    border-radius: 5%;
+    border-style: none;
+    background-color: white;
+    color: rgba(235, 40, 145, 1);
+    font-weight: 600;
+    cursor: pointer;
+}

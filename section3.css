@@ -1,0 +1,103 @@
+.section3 {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+}
+.container {
+    display: flex;
+    width: 90vw;
+    height: auto;
+}
+.direita {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 40vw;
+    height: auto;
+    gap: 16px;
+}
+#spansec3 {
+    margin-top: 32px;
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+#subtextsec3 {
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+.esquerda {
+    width: 60vw;
+    height: auto;
+}
+
+
+/* estilizar direita*/
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 90%;
+    height: auto;
+    padding: 30px;
+    gap: 16px;
+}
+.accordion {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    background-color: rgba(227, 241, 255, 1);
+    border-radius: 8px;
+    padding: 16px;
+    cursor: pointer;
+}
+    
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    color: rgba(23, 32, 38, 1);
+
+}
+.acordeon {
+    font-size: 1.1rem;
+    padding: 10px;
+
+    border: none;
+    background-color: transparent;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.accordion-more {
+    font-size: 0.9rem;
+    opacity: 0;
+    height: 0;
+    transition: opacity .3s;
+    overflow: hidden;
+}
+.accordion-more.active {
+    height: 100%;
+    opacity: 1;
+    padding: 5px 0px;
+}
+.minus {
+    transform: rotate(0.4turn);
+    transition: transform .2s linear;
+}
+
+.accordion:has(.active) .minus {
+    transform: rotate(0.0turn);
+}
